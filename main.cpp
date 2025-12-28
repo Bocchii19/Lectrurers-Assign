@@ -15,7 +15,7 @@
 using namespace std; // Trong file .cpp chính thì có thể dùng (nhưng trong .h thì nên tránh)
 
 int main() {
-    ConsoleUI ui; // Khởi tạo đối tượng UI
+    ConsoleUI ui;
     ui.printTitle("HE THONG PHAN CONG GIANG VIEN (CAN BANG TAI)");
 
     // 1. Đọc dữ liệu từ file CSV
