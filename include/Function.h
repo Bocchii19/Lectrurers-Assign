@@ -7,7 +7,6 @@
 #include <vector>
 #include <unordered_map>
 
-// Protoypes
 bool isTimeConflict(const std::string& day1, const std::string& time1, const std::string& day2, const std::string& time2);
 
 bool assignBestTeacher(SubjectTable& subject, std::vector<Teacher>& listTeacher, std::unordered_map<std::string, std::vector<std::pair<std::string, std::string>>>& teacherSchedule);

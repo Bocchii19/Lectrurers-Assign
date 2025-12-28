@@ -14,6 +14,7 @@ bool isTimeConflict(const std::string& day1, const std::string& time1, const std
         return false; 
     }
 
+    
     try {
         int start1 = std::stoi(time1.substr(0, 2)) * 60 + std::stoi(time1.substr(2, 2));
         int end1 = std::stoi(time1.substr(5, 2)) * 60 + std::stoi(time1.substr(7, 2));
