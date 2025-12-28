@@ -7,10 +7,10 @@
 #include <algorithm>
 #include <iomanip>
 
-#include "src/TKB.h"
-#include "src/GV.h"
-#include "src/Function.h"
-#include "src/ConsoleUI.h" // Tích hợp giao diện đẹp (như changelog gợi ý)
+#include "TKB.h"
+#include "GV.h"
+#include "Function.h"
+#include "ConsoleUI.h" 
 
 using namespace std; // Trong file .cpp chính thì có thể dùng (nhưng trong .h thì nên tránh)
 
